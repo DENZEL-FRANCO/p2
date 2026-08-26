@@ -13,6 +13,6 @@ public class aula3_2 {
   double produto = entrada.nextDouble();
 
   System.out.print("desconto");
-  double
+  
   }
 }
