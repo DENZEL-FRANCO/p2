@@ -1,18 +1,21 @@
 import java.util.Scanner;
 
 public class aula3_2 {
+  public static void main(String[] args){
+    Scanner entrada = new Scanner(System.in);
 
-  public static void main(String[] orgs){
-  
-  Scanner entrada = new Scanner(System.in);
+    System.out.print("preço: ");
+    double preço = entrada.nextDouble();
 
-  System.out.print("preço: ");
-  double preco = entrada.nextDouble();
+    System.out.print("Desconto:(%) ");
+    double percetual = entrada.nextDouble();
 
-  System.out.print("produto");
-  double produto = entrada.nextDouble();
+    double desconto = preço * percetual / 100;
+    double preçofinal = preço - desconto;
 
-  System.out.print("desconto");
-  
+    System.out.println("Desconto" + desconto);
+    System.out.println("preço final: " + preçofinal);
+
+    entrada.close();
   }
 }

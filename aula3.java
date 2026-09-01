@@ -14,7 +14,7 @@ public static void main(String[] orgs){
 
     System.out.print("digite sua terceira nota");
     double terceira = entrada.nextDouble();
-    double media = ((primeira + segunda + terceira) / 3);8
+    double media = ((primeira + segunda + terceira) / 3);
 
     System.out.println("=====RESULTADO=====");
 
