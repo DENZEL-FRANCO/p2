@@ -25,11 +25,11 @@ public class aula4_3 {
       double porcentagemfaltas = (faltas * 100.0) / totalaula;
 
      String situacao;
-     String  mengam;
+     String  mensagem;
 
      if (porcentagemfaltas >25 ) {
       situacao = "reprovado";
-      
+      mensagem  = "reprovado por excesso de faltas.";
      }
 
     }
