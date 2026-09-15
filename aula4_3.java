@@ -30,8 +30,26 @@ public class aula4_3 {
      if (porcentagemfaltas >25 ) {
       situacao = "reprovado";
       mensagem  = "reprovado por excesso de faltas.";
+     } else if (media >= 9 && porcentagemfaltas <= 10) {
+        situacao = "aprovado com louvor";
+        mensagem = "parabéns! excelente desempenho. ";  
+     } else if (media >= 7) {
+        situacao = "aprovado";
+        mensagem = " bom trabalho!"; 
+     } else if (media >= 5) {
+        situacao = "recuperação";
+        mensagem = "estude mais pra recuperação. ";    
+     } else {
+        situacao = "eeprovado";
+        mensagem = " nota insuficiente. ";
      }
-
+     System.out.println();
+     System.out.println("Média; " + media);
+     System.out.println("faltas: " + porcentagemfaltas + " &");
+     System.out.println("sitação: " + situacao);
+     System.out.println(mensagem);
+     
+     entrada.close();
     }
     
 }
