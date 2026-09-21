@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class aula5_5 {
+public class ex5 {
     public static void main(String[] orgs) {
         Scanner  entrada =  new Scanner(System.in);
 
@@ -8,15 +8,10 @@ public class aula5_5 {
         double inteiro = entrada.nextDouble();
 
         if (inteiro > 0) {
-            System.out.println("positivo.");
-        }else if (inteiro < 0) {
-            
-            System.out.println("negativo.");
-        } else{
-            System.out.println("o numero é zero.");
+            System.out.println("positivo");            
+        }else{
+            System.out.println("negativo");
         }
-
-        entrada.close();
 
 
     }

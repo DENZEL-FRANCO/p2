@@ -1,6 +1,6 @@
 import  java.util.Scanner; 
 
-public class aula5_1d {
+public class ex1 {
     public  static void main(String[] orgs){
         Scanner entrada  = new Scanner(System.in);
 
