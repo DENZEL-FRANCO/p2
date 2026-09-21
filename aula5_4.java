@@ -12,7 +12,7 @@ public class aula5_4 {
         System.out.print("nota2");
         double nota2 = entrada.nextDouble();
 
-        System.out.print("nota1");
+        System.out.print("nota3");
         double nota3  = entrada.nextDouble();
 
         double media = (( nota1 + nota2 + nota3  ) /3);

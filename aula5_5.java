@@ -8,9 +8,15 @@ public class aula5_5 {
         double inteiro = entrada.nextDouble();
 
         if (inteiro > 0) {
-            System.out.println("positivo");
+            System.out.println("positivo.");
+        }else if (inteiro < 0) {
             
+            System.out.println("negativo.");
+        } else{
+            System.out.println("o numero é zero.");
         }
+
+        entrada.close();
 
 
     }
