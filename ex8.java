@@ -20,24 +20,16 @@ public class ex8 {
       int operacao = entrada.nextInt();
 
       if (operacao == 1) {
-        double resultado = primeiro + segundo;
-        System.out.println("resultatado da soma: " + resultado);
+        System.out.println("resultatado: " + (primeiro + segundo));
       }else if (operacao == 2) {
-       double resultado = primeiro + segundo;
-       System.out.println("resultado da subitração: " + resultado); 
+       System.out.println("resultado: " + (primeiro - segundo)); 
       }else if (operacao == 3) {
-        double resultado = primeiro + segundo;
-        System.out.println("resultado da mutiplicação: " + resultado);
+        System.out.println("resultado: " + (primeiro * segundo));
       }else if (operacao == 4) {
-        if (segundo  != 0) {
-          double resultado = primeiro / segundo;
-          System.out.println("resultado da divisão: " + resultado);
+          System.out.println("resultado: " + (primeiro / segundo));
         }else{
-          System.out.println("erro: não é possivel dividir por zero. ");
+          System.out.println("operação invalida. ");
         }
-      } else {
-        System.out.println("operação invalida. ");
-      }
 
       entrada.close();
 
