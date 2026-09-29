@@ -8,6 +8,12 @@ public class ex14 {
         double peso = entrada.nextDouble();
 
         System.out.print("altura em metros");
+        double altura = entrada.nextDouble();
+
+        double imc = peso / (altura*altura);
+
+        if ()
+
     }
     
 }
