@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class aula4_1 {
 
-    public static void main (String[] orge) {
+    public static void main (String[] arge) {
         Scanner entrada = new Scanner(System.in); 
 
         System.out.println("digite o usuario");

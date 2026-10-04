@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import  java.util.Scanner;
 
 public class ex2_1 {
-    public static void main(String [] orgs){
+    public static void main(String [] args){
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("digite o primeiro número: ");

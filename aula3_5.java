@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class aula3_5 {
-    public static void main(String[] orgs){
+    public static void main(String[] args){
 
         Scanner entrada = new Scanner(System.in);
 
