@@ -7,6 +7,7 @@ public class ex2 {
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("digitea uma frase");
+        String frase = entrada.nextLine();
 
         String palavra = entrada.nextLine().toLowerCase();
         String vogais = "aeiou";
