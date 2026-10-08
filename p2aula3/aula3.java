@@ -1,4 +1,4 @@
-package p2aula2;
+package p2aula3;
 
 import java.util.Scanner;
 
