@@ -1,12 +1,10 @@
-package p2aula3;
-
 import java.util.Scanner;
 
-public class ex2 {
+public class a7_comtagem_de_vogais {
     public static void main(String[]orgs){
         Scanner entrada = new Scanner(System.in);
 
-        System.out.print("digitea uma frase");
+        System.out.print("digite uma frase");
         String frase = entrada.nextLine();
 
         String palavra = entrada.nextLine().toLowerCase();

@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 
-public class aula4_1 {
+public class e7 {
 
-    public static void main (String[] arge) {
+    public static void main (String[] args) {
         Scanner entrada = new Scanner(System.in); 
 
         System.out.println("digite o usuario");

@@ -1,9 +1,8 @@
-package p2aula3.aula2;
-
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 
-public class aula2ex1 {
+public class a6_analise_de_notas {
+    
     public  static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
@@ -29,6 +28,6 @@ public class aula2ex1 {
         }
 
         entrada.close();
-    }
+    } 
     
 }

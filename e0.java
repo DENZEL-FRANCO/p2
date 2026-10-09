@@ -1,5 +1,5 @@
 
-public class aula4_0 {
+public class e0 {
 
     public static void main(String[] args) {
         double idade = 18;
