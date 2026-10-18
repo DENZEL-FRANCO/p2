@@ -96,6 +96,43 @@ public class a8_menu {
                     System.out.println("A média de notas da turma é: " + mediaTurma);
                 }
             }
+
+             else if (opcao == 4) {
+                System.out.println("\n--- ALUNOS APROVADOS (NOTA >= 7.0) ---");
+                if (listaAlunos.isEmpty()) {
+                    System.out.println("Nenhum aluno cadastrado no sistema.");
+                } else {
+                    int totalAprovados = 0;
+                    for (int i = 0; i < listaAlunos.size(); i++) {
+                        aluno alunoAtual = listaAlunos.get(i);
+                        if (alunoAtual.nota >= 7.0) {
+                            System.out.println("- " + alunoAtual.nome + " | Nota: " + alunoAtual.nota);
+                            totalAprovados++;
+                        }
+                    }
+                    System.out.println("\nTotal de alunos aprovados: " + totalAprovados);
+                }
+            }
+            
+             else if (opcao == 5) {
+                System.out.println("\n--- MELHOR ALUNO DA TURMA ---");
+                if (listaAlunos.isEmpty()) {
+                    System.out.println("Nenhum aluno cadastrado no sistema.");
+                } else {
+                    double maiorNotaEncontrada = -1;
+                    aluno melhorAluno = null;
+                    
+                    for (int i = 0; i < listaAlunos.size(); i++) {
+                        aluno alunoAtual = listaAlunos.get(i);
+                        if (alunoAtual.nota > maiorNotaEncontrada) {
+                            maiorNotaEncontrada = alunoAtual.nota;
+                            melhorAluno = alunoAtual;
+                        }
+                    }
+                    System.out.println("O aluno com a maior nota é: " + melhorAluno.nome);
+                    System.out.println("Nota: " + melhorAluno.nota + " | Curso: " + melhorAluno.curso);
+                }
+            }
             
         } while (opcao != 0);
 
