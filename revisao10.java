@@ -9,7 +9,6 @@ public class revisao10 {
         double salario = entrada.nextDouble();
         double novoSalario;
 
-        // Estrutura condicional idêntica à do pseudocódigo
         if (salario < 2000) {
             novoSalario = salario + (salario * 0.15);
         } else if (salario <= 5000) {
@@ -18,7 +17,6 @@ public class revisao10 {
             novoSalario = salario + (salario * 0.05);
         }
 
-        // Exibe o novo salário (usando printf para formatar os centavos)
         System.out.printf("O novo salário com aumento é: R$ %.2f\n", novoSalario);
 
         entrada.close();
