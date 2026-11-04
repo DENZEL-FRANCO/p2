@@ -9,4 +9,13 @@ public class Aula10 {
     class Pessoa{
         String nome;
         int idade;
+
+        Pessoa (String nome, int idade) {
+            this.nome = nome;
+            this.idade = idade;
+        }
+        void aprentar() {
+            System.out.println("nome:" + nome);
+            System.out.println("idade:" + idade);
+        }
     }
