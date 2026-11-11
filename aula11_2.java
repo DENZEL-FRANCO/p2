@@ -1,5 +1,5 @@
 public class aula11_2 {
-    class livro  {
+    static class livro  {
         String titulo;
         String autor;
         int ano;
@@ -19,7 +19,11 @@ public class aula11_2 {
     public class main {
         public static  void main(String[] args){
             livro livro1 = new livro("Dom Casmurro", "Machado de assid", 1899);
-            livro livro2 = new livro("o ")
+            livro livro2 = new livro("o  Pequeno Principe", "Antonia de Daint-Exupéry",1943);
+
+            livro1.aprentar();
+            System.out.println();
+            livro2.aprentar();
         }
     
         
